@@ -23,7 +23,8 @@ assetpack_requires:
   perl(Mojolicious::Plugin::AssetPack): '>= 1.36'
 
 build_requires:
-  rubygem(sass): '>=0.9.4'
+  rubygem: '>=0.9.4'
+  rubygem(sass):
   '%assetpack_requires':
 
 common_requires:
