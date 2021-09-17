@@ -22,10 +22,10 @@ assetpack_requires:
   perl(JavaScript::Minifier::XS): '>= 0.11'
   perl(Mojolicious::Plugin::AssetPack): '>= 1.36'
 
-build_requires:
-  rubygem: '>=0.9.4'
-  rubygem(sass):
-  '%assetpack_requires':
+#build_requires:
+#  rubygem: '>=0.9.4'
+#  rubygem(sass):
+#  '%assetpack_requires':
 
 common_requires:
   perl: '>= 5.20.0'
